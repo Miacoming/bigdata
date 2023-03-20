@@ -26,6 +26,7 @@ object Spark03_WordCount {
     //wordToOne.reduceByKey((x+y)=>x+y)
     val wordToCount=wordToOne.reduceByKey(_+_)
 
+    //hello git4
 
 
     //5.将转换结果采集到控制台打印出来
@@ -37,3 +38,5 @@ object Spark03_WordCount {
   }
 
 }
+
+//////////////////////////////////////////////////////
